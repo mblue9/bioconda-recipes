@@ -22,7 +22,7 @@ requirements:
     - bioconductor-gviz
     - r-essentials
 
-tests:
+test:
   commands:
     - bpipe --help
 
@@ -31,5 +31,5 @@ about:
   summary: |
     Clinker is a bioinformatics pipeline that generates a superTranscriptome 
     from popular fusion finder outputs.
-  license: GPL3
+  license: MIT
  
